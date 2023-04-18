@@ -82,7 +82,7 @@ public class Vehicle{
         do {
             System.out.println("Chọn công việc:");
             System.out.println("1. Nhập thông tin và tạo các đối tượng xe");
-            System.out.println("2. Xuất bảng kê khai tiền thuế của các xe");
+            System.out.println("2. Xuất bảng kê khai tiền thuế trước bạ của các xe");
             System.out.println("3. Thoát");
 
             choice = scanner.nextInt();
@@ -114,7 +114,7 @@ public class Vehicle{
                     xe3.setLoaiXe(scanner.nextLine());
                     System.out.print("Dung tích: ");
                     xe3.setDungTichXYLanh(scanner.nextInt());
-                }
+               
                 break;
                 
                 case 2:
@@ -128,8 +128,10 @@ public class Vehicle{
                 case 3:
                 System.out.println("Kết thúc chương trình!");
                 break;
-                default -> System.out.println("Sai lựa chọn, vui lòng chọn lại.");
-            
+                default:
+                System.out.println("Sai lựa chọn, vui lòng chọn lại.");
+                break;
+            }
         }while (choice != 3);
 
         scanner.close();
