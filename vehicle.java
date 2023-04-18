@@ -17,7 +17,6 @@ public class Vehicle{
     }
 
     private Vehicle() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     public String getTenChuXe() {
@@ -119,7 +118,7 @@ public class Vehicle{
                 break;
                 
                 case 2:
-                    System.out.println("Bảng kê khai tiền thuế trước bạ của các xe:");
+                    System.out.println("Bảng kê khai tiền thuế của các xe:");
                     xe1.hienThiThongTinpt();
                     xe2.hienThiThongTinpt();
                     xe3.hienThiThongTinpt();
