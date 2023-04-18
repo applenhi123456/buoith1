@@ -82,7 +82,7 @@ public class Vehicle{
         do {
             System.out.println("Chọn công việc:");
             System.out.println("1. Nhập thông tin và tạo các đối tượng xe");
-            System.out.println("2. Xuất bảng kê khai tiền thuế trước bạ của các xe");
+            System.out.println("2. Xuất bảng kê khai tiền thuế của các xe");
             System.out.println("3. Thoát");
 
             choice = scanner.nextInt();
